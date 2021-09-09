@@ -1,0 +1,14 @@
+type usuario{
+    idUsuario: ID @id
+    nickname: String!
+    saldo: Float
+    email: String!
+    miembro: String
+    puntos: Int!
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+    // idPersona foreign
+}
+
+
+// debe de ser manejar la membresia aparte

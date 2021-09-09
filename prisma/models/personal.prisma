@@ -1,0 +1,9 @@
+type Personal{
+    id: ID! @id
+    nombre: String!
+    edad: Int!
+    salario: Float!
+    
+    // idSala foreign
+
+}

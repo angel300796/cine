@@ -1,0 +1,9 @@
+type Cine{
+    idCine: ID! @id
+    ubicacion: String!
+    nombre
+    horario
+    numero de salas
+    
+    // idEmpleado foreign 
+}

@@ -1,0 +1,6 @@
+type Producto{
+    id: ID! @id
+    nombre: String!
+    precio: Float!
+    tamano
+}

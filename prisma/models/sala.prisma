@@ -1,0 +1,12 @@
+type Sala{
+    id: ID! @id
+    tipo: TipoSala! //solo pueden ser las del enum
+
+    // idEmpleado foreign 
+
+}
+// diccionario tal cual solo puedene estos tipos
+enum TipoSala{
+    IDMAX
+    TRESD
+}

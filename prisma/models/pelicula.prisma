@@ -1,0 +1,7 @@
+type Pelicula{
+    id: ID @id
+    nombre: String!
+    fecha: DateTime! @createdAt
+    horario: DateTime!
+    precio: Float!
+}

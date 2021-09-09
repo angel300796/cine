@@ -1,0 +1,6 @@
+type Persona{
+    id: ID @id
+    nombre: String!
+    apellidoPaterno: String
+    apellidoMaterno: String
+}
