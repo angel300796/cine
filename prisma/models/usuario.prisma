@@ -1,5 +1,5 @@
-type usuario{
-    idUsuario: ID @id
+type Usuario{
+    id: ID @id
     nickname: String!
     saldo: Float
     email: String!

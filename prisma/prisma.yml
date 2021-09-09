@@ -3,6 +3,7 @@ databaseType: document
 datamodel:
   - ./models/cine.prisma
   - ./models/pelicula.prisma
+  - ./models/membresia.prisma
   - ./models/persona.prisma
   - ./models/personal.prisma
   - ./models/producto.prisma

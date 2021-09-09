@@ -1,5 +1,5 @@
 type Cine{
-    idCine: ID! @id
+    id: ID! @id
     ubicacion: String!
     nombre: String
     horario: DateTime! @createdAt
