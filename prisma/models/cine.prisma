@@ -1,9 +1,9 @@
 type Cine{
     idCine: ID! @id
     ubicacion: String!
-    nombre
-    horario
-    numero de salas
+    nombre: String
+    horario: DateTime! @createdAt
+    numeroSalas: Int!
     
     // idEmpleado foreign 
 }

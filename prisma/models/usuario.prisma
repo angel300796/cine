@@ -3,8 +3,6 @@ type usuario{
     nickname: String!
     saldo: Float
     email: String!
-    miembro: String
-    puntos: Int!
     createdAt: DateTime! @createdAt
     updatedAt: DateTime! @updatedAt
     // idPersona foreign

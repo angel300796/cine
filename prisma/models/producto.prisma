@@ -2,5 +2,13 @@ type Producto{
     id: ID! @id
     nombre: String!
     precio: Float!
-    tamano
+    tamano: TipoTamano
+}
+
+enum TipoTamano{
+    CHICO
+    MEDIANO
+    NORMAL
+    GRANDE
+    JUMBO
 }

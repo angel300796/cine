@@ -1,0 +1,5 @@
+type Membresia{
+    id: ID @id
+    miembro: String
+    puntos: Int!
+}
